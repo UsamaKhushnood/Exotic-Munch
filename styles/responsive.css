@@ -1,0 +1,17 @@
+@media screen and (max-width: 980px) {
+  .nav-links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .nav-links .cnav-link {
+    padding: 10px;
+  }
+  .icons-tray {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

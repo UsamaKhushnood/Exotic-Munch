@@ -1,0 +1,13 @@
+@media screen and (max-width: 980px) {
+  .nav-links {
+    flex-direction: column;
+    text-align: center;
+    .cnav-link {
+      padding: 10px;
+    }
+  }
+  .icons-tray {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
