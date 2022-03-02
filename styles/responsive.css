@@ -18,7 +18,8 @@
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    row-gap: 100px;
+    -webkit-column-gap: 20px;
+            column-gap: 20px;
   }
   .hero-section {
     height: 100%;
@@ -29,10 +30,77 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
+  .hero-container .hero-col-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hero-container .hero-col-1 .hero-text-sec {
+    bottom: auto;
+    text-align: center;
+  }
+  .hero-container .hero-col-1 .hero-text-sec h1 {
+    font-size: 50px;
+  }
+  .hero-container .hero-col-1 .hero-text-sec p {
+    font-size: 15px;
+  }
+  .hero-container .hero-col-1 .hero-text-sec button.get-started.cBtn.mt-4 {
+    margin: 0 auto;
+  }
+  .hero-container .hero-col-1 .gift-available {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hero-container .hero-col-2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .sec2 .floating-images img.cookie-img {
+    top: 40px;
+    right: 30px;
+    width: 100px;
+  }
+  .sec2 .floating-images img.heart-cream-img {
+    top: 108px;
+    right: 165px;
+    width: 180px;
+  }
+  .sec2 .floating-images img.chips-img {
+    left: 0;
+    top: 85px;
+    width: 200px;
+  }
+  .sec2 .floating-images img.cookies-img {
+    right: 0;
+    top: 703px;
+    width: 240px;
+  }
+  .sec2 .floating-images img.crave-img {
+    left: 0;
+    top: 685px;
+    width: 135px;
+  }
+  .sec2 .floating-images img.pulsitos-img {
+    top: 890px;
+    right: 145px;
+    width: 200px;
+  }
+  .sec3 {
+    background-image: none;
+  }
   .sec3 .exotic-cards {
     -ms-grid-columns: (auto)[1];
         grid-template-columns: repeat(1, auto);
+  }
+  .sec3 .exotic-cards p.exotic-card-desc {
+    color: #000 !important;
   }
 }
 

@@ -12,7 +12,7 @@
   }
   .hero-container {
     flex-direction: column-reverse;
-    row-gap: 100px;
+    column-gap: 20px;
   }
   .hero-section {
     height: 100%;
@@ -23,9 +23,77 @@
   }
 }
 
-@media screen and (max-width: 425px) {
-  .sec3 .exotic-cards {
-    grid-template-columns: repeat(1, auto);
+@media screen and (max-width: 450px) {
+  .hero-container {
+    .hero-col-1 {
+      display: flex;
+      justify-content: center;
+      .hero-text-sec {
+        bottom: auto;
+        text-align: center;
+        h1 {
+          font-size: 50px;
+        }
+        p {
+          font-size: 15px;
+        }
+        button.get-started.cBtn.mt-4 {
+          margin: 0 auto;
+        }
+      }
+      .gift-available {
+        justify-content: center;
+      }
+    }
+    .hero-col-2 {
+      justify-content: center;
+    }
+  }
+
+  .sec2 {
+    .floating-images {
+      img.cookie-img {
+        top: 40px;
+        right: 30px;
+        width: 100px;
+      }
+      img.heart-cream-img {
+        top: 108px;
+        right: 165px;
+        width: 180px;
+      }
+      img.chips-img {
+        left: 0;
+        top: 85px;
+        width: 200px;
+      }
+      img.cookies-img {
+        right: 0;
+        top: 703px;
+        width: 240px;
+      }
+
+      img.crave-img {
+        left: 0;
+        top: 685px;
+        width: 135px;
+      }
+      img.pulsitos-img {
+        top: 890px;
+        right: 145px;
+        width: 200px;
+      }
+    }
+  }
+
+  .sec3 {
+    background-image: none;
+    .exotic-cards {
+      grid-template-columns: repeat(1, auto);
+      p.exotic-card-desc {
+        color: #000 !important;
+      }
+    }
   }
 }
 

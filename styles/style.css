@@ -159,31 +159,37 @@
 .sec2 .floating-images img.cookies-img {
   right: 0;
   top: 450px;
+  width: 335px;
 }
 
 .sec2 .floating-images img.chips-img {
   left: 0;
   top: 300px;
+  width: 270px;
 }
 
 .sec2 .floating-images img.heart-cream-img {
   top: 200px;
   right: 350px;
+  width: 200px;
 }
 
 .sec2 .floating-images img.crave-img {
   left: 350px;
   top: 670px;
+  width: 200px;
 }
 
 .sec2 .floating-images img.pulsitos-img {
   top: 790px;
   right: 300px;
+  width: 300px;
 }
 
 .sec2 .floating-images img.cookie-img {
   top: 40px;
   right: 200px;
+  width: 170px;
 }
 
 .sec3 {
@@ -192,6 +198,7 @@
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center 500px;
+  padding-bottom: 50px;
   min-height: 1100px;
 }
 
