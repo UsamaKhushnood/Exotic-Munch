@@ -10,4 +10,28 @@
     text-align: center;
     margin-top: 20px;
   }
+  .hero-container {
+    flex-direction: column-reverse;
+    row-gap: 100px;
+  }
+  .hero-section {
+    height: 100%;
+  }
+
+  .sec3 .exotic-cards {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .sec3 .exotic-cards {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-section .hero-text-sec {
+    transform: translate(0, 50%);
+    bottom: 50%;
+  }
 }
