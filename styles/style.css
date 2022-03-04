@@ -269,4 +269,78 @@ button.cBtn:hover {
 .shop-your-box-btn {
   margin: 70px auto 100px auto;
 }
+
+.customer-reviews {
+  background-image: url("../assets/images/curve-background2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 200px;
+  padding-bottom: 50px;
+  min-height: 500px;
+  margin-top: 200px;
+}
+
+.rating-star {
+  background-image: url(../assets/images/rating_sticker.png);
+  width: 200px;
+  background-size: 260px;
+  background-repeat: no-repeat;
+  height: 200px;
+  position: absolute;
+  top: -20px;
+  left: 40px;
+  background-position: center;
+}
+
+.ratings h2 {
+  font-size: 70px;
+  color: #fff;
+  text-align: center;
+  margin-top: 36px;
+  margin-bottom: 0;
+}
+
+.ratings p {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+
+.rCard-body {
+  background: #fff;
+  border-radius: 15px;
+  padding: 100px;
+  padding-left: 120px;
+  padding-right: 50px;
+  position: relative;
+}
+
+.rCard-img {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.rCard-img img {
+  width: 170px !important;
+  border-radius: 22px;
+}
+
+.stars i.bi.bi-star-fill {
+  font-size: 20px;
+  color: #ffc700;
+  margin-right: 2px;
+}
+
+.owl-item.cloned.active {
+  opacity: 0.8;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+.owl-item.active.center {
+  z-index: 9999;
+}
 /*# sourceMappingURL=style.css.map */

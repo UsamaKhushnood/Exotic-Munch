@@ -22,6 +22,17 @@
     />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   </head>
   <body>
     <div class="color-bar bg-biscuit"></div>
@@ -187,5 +198,43 @@
         </button>
       </div>
     </section>
+    <section class="customer-reviews position-relative">
+      <div class="rating-star">
+        <div class="ratings">
+          <h2>4.9</h2>
+          <p class="mb-0 text-uppercase">2550 Reviews</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="owl-carousel owl-theme">
+          <div class="review-card">
+            <div class="rCard-body">
+              <div class="rCard-img">
+                <img src="/assets/images/snackers.png" />
+              </div>
+              <h3 class="rCard-title">Kasey L</h3>
+              <p class="rCard-desc">
+                I love how they slowly change to different styles of candies
+                snacks and things making it a truly Christmas like experience!
+              </p>
+              <div class="stars d-flex">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      $('.owl-carousel').owlCarousel({
+        autoplay: true,
+        center: true,
+        loop: true,
+      })
+    </script>
   </body>
 </html>
